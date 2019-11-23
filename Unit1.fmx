@@ -1,0 +1,80 @@
+object Main: TMain
+  Left = 0
+  Top = 0
+  Caption = 'WeightControl'
+  ClientHeight = 140
+  ClientWidth = 253
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TBHeight: TTrackBar
+    CanParentFocus = True
+    Max = 210.000000000000000000
+    Min = 70.000000000000000000
+    Orientation = Horizontal
+    Position.X = 104.000000000000000000
+    Position.Y = 16.000000000000000000
+    TabOrder = 0
+    Value = 70.000000000000000000
+    OnChange = TBHeightChange
+  end
+  object TBWeight: TTrackBar
+    CanParentFocus = True
+    Max = 150.000000000000000000
+    Min = 50.000000000000000000
+    Orientation = Horizontal
+    Position.X = 104.000000000000000000
+    Position.Y = 48.000000000000000000
+    TabOrder = 1
+    Value = 50.000000000000000000
+    OnChange = TBWeightChange
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Weight:'
+  end
+  object Label2: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Height:'
+  end
+  object CurrWeight: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '50'
+  end
+  object CurrHeight: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = '70'
+  end
+  object Calculate: TButton
+    Position.X = 80.000000000000000000
+    Position.Y = 112.000000000000000000
+    TabOrder = 6
+    Text = 'Calculate'
+    OnClick = CalculateClick
+  end
+  object Output: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.VertAlign = Leading
+  end
+end
