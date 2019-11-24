@@ -1,0 +1,10 @@
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\bin\Debug\Replace.exe.config
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\bin\Debug\Replace.exe
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\bin\Debug\Replace.pdb
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.csprojAssemblyReference.cache
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.Form1.resources
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.Properties.Resources.resources
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.csproj.GenerateResource.cache
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.csproj.CoreCompileInputs.cache
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.exe
+C:\Users\Znam\Desktop\Корягин\Дкр\Replace\obj\Debug\Replace.pdb
